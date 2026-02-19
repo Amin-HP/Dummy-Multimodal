@@ -17,7 +17,7 @@ def parameters():
         'Actions': {
             'Enabled': True,
             'Interval': (1.0, {'min': 0.1, 'max': 5.0}),
-            'File': ('label_map_k400.txt', {'type': 'str'}),
+            'File': ('nonsense_label.txt', {'type': 'str'}),
             'Reload': False,
             'Smooth': False,
             'Smooth Factor': (0.1, {'min': 0.01, 'max': 1.0})
@@ -67,7 +67,7 @@ def setup():
     
     # Initial Load
     load_messages('messages.txt')
-    load_classes('label_map_k400.txt')
+    load_classes('nonsense_label.txt')
 
 def draw():
     global last_action_time, last_text_time, current_probs, target_probs, active_subset, current_text
