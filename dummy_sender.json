@@ -2,15 +2,15 @@
     "params": {
         "actions": {
             "enabled": true,
-            "interval": 3.1040000915527344,
+            "interval": 20.0,
             "file": "nonsense_label.txt",
             "reload": false,
-            "smooth": true,
+            "smooth": false,
             "smooth_factor": 0.10000000149011612
         },
         "text": {
             "enabled": false,
-            "interval": 6.2870001792907715,
+            "interval": 8.11299991607666,
             "file": "messages.txt",
             "reload": true
         }
