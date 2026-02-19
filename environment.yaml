@@ -1,0 +1,10 @@
+name: mn
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python
+  - cairo
+  - pip:
+    - py5canvas
+    - python-osc
