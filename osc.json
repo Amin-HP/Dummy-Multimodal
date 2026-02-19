@@ -1,0 +1,5 @@
+{
+    "server port": 9999,
+    "client address": "127.0.0.1",
+    "client port": 5005
+}
